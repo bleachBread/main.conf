@@ -1,1 +1,26 @@
-.Xresources
+!   URxvt
+
+URxvt.font: xft:consolas:size=10:antialias=true
+URxvt.scrollBar: false
+URxvt.depth: 32
+URxvt.background: rgba:1111/1111/1111/dddd
+URxvt.foreground: white
+!URxvt.blurRadius: 30
+!URxvt.transparent: true
+
+!   Rofi
+
+rofi.font: consolas 10
+rofi.hide-scrollbar: true
+rofi.padding: 5
+!rofi.depth: 32
+!rofi.separator-style: none
+rofi.lines: 7
+rofi.eh: 2
+!rofi.fullscreen: true
+rofi.bw: 2 
+rofi.color-window: argb:9a000000, argb:ffaa3333, argb:ffffffff
+rofi.color-normal: argb:002f343f, #d8dee8, argb:002f343f, argb:002f343f, #bf616a
+rofi.color-active: #2f343f, #b48ead, #2f343f, #2f343f, #93e5cc
+rofi.color-urgent: #2f343f, #ebcb8b, #2f343f, #2f343f, #ebcb8b
+rofi.color-enabled: true
